@@ -23,7 +23,7 @@ import json
 
 # API配置
 API_URL = "https://api.openai-hk.com/v1/chat/completions"#国内不允许接入openai，这是我选择的一个中转站
-API_KEY = "hk-ha558u100001416706b28dabe9e4480cecda26d21746c3f0"#私有密钥暂不公开
+API_KEY = "key"#私有密钥暂不公开
 # 定义发送消息的函数
 def send_message():
     user_message = user_input.get()
